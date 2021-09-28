@@ -1,15 +1,10 @@
-import LinearStepper from "./LinearStepper";
-import { CssBaseline, Container, Paper, Box } from "@material-ui/core";
+
+import MultiStepForm from "./components/MultiStepForm";
 
 function App() {
   return (
     <>
-      <CssBaseline />
-      <Container component={Box} p={4}>
-        <Paper component={Box} p={3}>
-          <LinearStepper />
-        </Paper>
-      </Container>
+    <MultiStepForm />
     </>
   );
 }
